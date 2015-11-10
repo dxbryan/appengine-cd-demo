@@ -8,7 +8,7 @@
     
     <instance-class>B8</instance-class>
     <basic-scaling>
-        <max-instances>11</max-instances>
+        <max-instances>35</max-instances>
         <idle-timeout>10m</idle-timeout>
     </basic-scaling>
 

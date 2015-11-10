@@ -51,11 +51,11 @@
     List<Entity> greetings = datastore.prepare(query).asList(FetchOptions.Builder.withLimit(5));
     if (greetings.isEmpty()) {
 %>
-<p>Guestbook '${fn:escapeXml(guestbookName)}' has no messages.</p>
+<p>Guestbook '${fn:escapeXml(guestbookName)}' has no messages at this time.</p>
 <%
 } else {
 %>
-<p>Messages in Guestbook '${fn:escapeXml(guestbookName)}'.</p>
+<p>Latest Messages in Guestbook '${fn:escapeXml(guestbookName)}'.</p>
 <%
     for (Entity greeting : greetings) {
         pageContext.setAttribute("greeting_content",
