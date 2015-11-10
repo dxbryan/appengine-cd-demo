@@ -5,6 +5,13 @@
     <threadsafe>true</threadsafe>
     
     <module>default</module>
+    
+    <instance-class>B8</instance-class>
+    <basic-scaling>
+        <max-instances>11</max-instances>
+        <idle-timeout>10m</idle-timeout>
+    </basic-scaling>
+
     <!--vm>true</vm>
     <manual-scaling>
         <instances>1</instances>
