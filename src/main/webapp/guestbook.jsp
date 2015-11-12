@@ -55,7 +55,7 @@
 <%
 } else {
 %>
-<p>Very Latest and Greatest Messages in Guestbook '${fn:escapeXml(guestbookName)}'.</p>
+<p>The Latest Messages in Guestbook '${fn:escapeXml(guestbookName)}'.</p>
 <%
     for (Entity greeting : greetings) {
         pageContext.setAttribute("greeting_content",
